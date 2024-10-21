@@ -1,0 +1,12 @@
+(version 1)
+(rule "class 1:1"
+  (condition "A.NetClass == 'DiffPair' && B.NetClass == 'DiffPair'")
+  (constraint clearance (min 0.1778mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == 'Clock' && B.NetClass == 'Clock'")
+  (constraint clearance (min 0.1778mm)))
+
+(rule "bga"
+  (condition "A.intersectsCourtyard('U1')")
+  (constraint clearance (min 0.08mm)))
