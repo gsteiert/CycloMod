@@ -52670,7 +52670,7 @@
 		)
 		(uuid "048dd5a1-87f9-4c0c-b2d9-e243c0d1bc19")
 	)
-	(label "CLKOUT3"
+	(label "CLKOUT1"
 		(at 318.77 191.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -52835,7 +52835,7 @@
 		)
 		(uuid "188c7a5a-6aeb-442f-832d-31a2d959e268")
 	)
-	(label "G3"
+	(label "G8"
 		(at 306.07 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -52846,7 +52846,7 @@
 		)
 		(uuid "18c4f4f7-a94f-41af-9af7-0bda52289727")
 	)
-	(label "CLKOUT2"
+	(label "CLKOUT0"
 		(at 318.77 189.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -52924,7 +52924,7 @@
 		(uuid "1e30c5e1-61ed-4aca-80f9-be2ed1cb1f50")
 	)
 	(label "RX1"
-		(at 250.19 191.77 180)
+		(at 250.19 201.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -52934,7 +52934,7 @@
 		)
 		(uuid "1f30ae13-e5cc-4723-a1e6-5b8a4f1a9501")
 	)
-	(label "G0"
+	(label "G7"
 		(at 306.07 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53056,7 +53056,7 @@
 		(uuid "2f15e69e-5fc4-4160-a2ba-95162f0a8684")
 	)
 	(label "SCL"
-		(at 162.56 85.09 180)
+		(at 162.56 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53088,7 +53088,7 @@
 		)
 		(uuid "32b8603d-598f-463f-b3b8-33864185d600")
 	)
-	(label "CLKOUT1"
+	(label "CLKOUT3"
 		(at 318.77 222.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -53165,7 +53165,7 @@
 		)
 		(uuid "3a3bb560-797a-4f55-9959-c9f0fbf7bdda")
 	)
-	(label "G6"
+	(label "G4"
 		(at 306.07 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53187,7 +53187,7 @@
 		)
 		(uuid "3dcf1c68-36f5-4a10-befc-daf49a2581c3")
 	)
-	(label "G5"
+	(label "G10"
 		(at 306.07 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53221,7 +53221,7 @@
 		(uuid "402fb09c-7c5b-4149-bf1e-1d383d487760")
 	)
 	(label "CTS1"
-		(at 250.19 196.85 180)
+		(at 250.19 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53243,7 +53243,7 @@
 		(uuid "40e9be08-54c3-4952-886b-cd204bfd25f4")
 	)
 	(label "SCL"
-		(at 250.19 207.01 180)
+		(at 250.19 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53407,8 +53407,8 @@
 		)
 		(uuid "57c84007-0e87-493c-afd8-c85c876675e9")
 	)
-	(label "GPIO5"
-		(at 162.56 80.01 180)
+	(label "GPIO11"
+		(at 162.56 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53462,7 +53462,7 @@
 		)
 		(uuid "5f3f41b0-aabe-4a24-89bd-603fc0376868")
 	)
-	(label "G2"
+	(label "G6"
 		(at 306.07 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53517,7 +53517,7 @@
 		)
 		(uuid "6290977e-c1cb-4d66-ad55-ec66dc612194")
 	)
-	(label "G7"
+	(label "G3"
 		(at 306.07 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53528,7 +53528,7 @@
 		)
 		(uuid "63c51695-8d95-422e-bda0-8a8f9ddf397a")
 	)
-	(label "CLKOUT0"
+	(label "CLKOUT2"
 		(at 318.77 219.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -53539,7 +53539,7 @@
 		)
 		(uuid "63edda13-c498-4cdf-82ac-374d6fd2555f")
 	)
-	(label "G1"
+	(label "G5"
 		(at 306.07 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53627,7 +53627,7 @@
 		)
 		(uuid "749ca436-0154-4e1d-bbcc-e4bbc54d78db")
 	)
-	(label "G10"
+	(label "G0"
 		(at 306.07 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53660,7 +53660,7 @@
 		)
 		(uuid "774e0008-8814-42d3-a05b-3a9804bf935b")
 	)
-	(label "G9"
+	(label "G1"
 		(at 306.07 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53672,7 +53672,7 @@
 		(uuid "7b16fd1b-b493-4c38-b26d-319059e30e46")
 	)
 	(label "TMS"
-		(at 162.56 90.17 180)
+		(at 162.56 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53727,7 +53727,7 @@
 		(uuid "87cf7b61-fde4-4017-a44c-d5ed07024936")
 	)
 	(label "TX1"
-		(at 250.19 194.31 180)
+		(at 250.19 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53737,8 +53737,8 @@
 		)
 		(uuid "88102a84-51ff-42a6-8260-7a081e0e12f7")
 	)
-	(label "GPIO4"
-		(at 162.56 77.47 180)
+	(label "GPIO10"
+		(at 162.56 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53837,7 +53837,7 @@
 		(uuid "97173819-d638-4b93-be22-442de5af2603")
 	)
 	(label "TCK"
-		(at 162.56 92.71 180)
+		(at 162.56 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53891,7 +53891,7 @@
 		)
 		(uuid "9cdc35b0-06d9-4e38-ac35-efb5f0475a89")
 	)
-	(label "G8"
+	(label "G2"
 		(at 306.07 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -53968,7 +53968,7 @@
 		)
 		(uuid "ab41b1ff-b8ea-4ccb-81b0-0e3ebe8927ba")
 	)
-	(label "G4"
+	(label "G9"
 		(at 306.07 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -54013,7 +54013,7 @@
 		(uuid "afca1473-2cf7-41f9-bcba-37d8538e2c1b")
 	)
 	(label "RTS1"
-		(at 250.19 199.39 180)
+		(at 250.19 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54090,7 +54090,7 @@
 		(uuid "b9200900-68ad-4685-95c1-1e4f16cb72ce")
 	)
 	(label "TDI"
-		(at 162.56 95.25 180)
+		(at 162.56 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54189,7 +54189,7 @@
 		(uuid "c395c222-9fb9-4339-883b-848707f8f5aa")
 	)
 	(label "D1"
-		(at 250.19 201.93 180)
+		(at 250.19 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54299,7 +54299,7 @@
 		(uuid "cebe6942-f332-4b1e-b726-c872969b7778")
 	)
 	(label "SDA"
-		(at 162.56 82.55 180)
+		(at 162.56 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54332,7 +54332,7 @@
 		(uuid "d5090cdb-dfc5-4b9e-b10f-ccfee0e64d20")
 	)
 	(label "TDO"
-		(at 162.56 87.63 180)
+		(at 162.56 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
