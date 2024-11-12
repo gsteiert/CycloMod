@@ -638,11 +638,317 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A1_MIN",
+          "name": "A1_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BALL_ROWS",
+          "name": "BALL_ROWS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BODY_DIAMETER",
+          "name": "BODY_DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MAX",
+          "name": "B_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MIN",
+          "name": "B_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_NOM",
+          "name": "B_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_MAX",
+          "name": "D1_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_MIN",
+          "name": "D1_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_NOM",
+          "name": "D1_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D2_NOM",
+          "name": "D2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_MAX",
+          "name": "D_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_MIN",
+          "name": "D_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_NOM",
+          "name": "D_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E1_MAX",
+          "name": "E1_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E1_MIN",
+          "name": "E1_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E1_NOM",
+          "name": "E1_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E2_NOM",
+          "name": "E2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMAX",
+          "name": "EMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMIN",
+          "name": "EMIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ENOM",
+          "name": "ENOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MAX",
+          "name": "E_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MIN",
+          "name": "E_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_NOM",
+          "name": "E_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IPC",
+          "name": "IPC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JEDEC",
+          "name": "JEDEC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MAX",
+          "name": "L_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MIN",
+          "name": "L_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_NOM",
+          "name": "L_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE_TYPE",
+          "name": "PACKAGE_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COLUMNS",
+          "name": "PIN_COLUMNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COUNT_D",
+          "name": "PIN_COUNT_D",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COUNT_E",
+          "name": "PIN_COUNT_E",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THERMAL_PAD",
+          "name": "THERMAL_PAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VACANCIES",
+          "name": "VACANCIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
