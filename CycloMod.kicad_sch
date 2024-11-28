@@ -5,6 +5,108 @@
 	(uuid "88351f91-e256-45f9-a10d-ad75dd8a2d46")
 	(paper "User" 477.19 317.906)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -49020,6 +49122,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 58.42) (xy 252.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110dc89a-6323-43c2-9762-8228912bcd81")
+	)
+	(wire
+		(pts
 			(xy 252.73 209.55) (xy 250.19 209.55)
 		)
 		(stroke
@@ -49470,6 +49582,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 53.34) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa63817-c28c-498f-801d-59c1acc072af")
+	)
+	(wire
+		(pts
 			(xy 40.64 123.19) (xy 54.61 123.19)
 		)
 		(stroke
@@ -49827,6 +49949,16 @@
 			(type default)
 		)
 		(uuid "4628c596-41b6-4ad8-9893-9bf950c9fbd0")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 252.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f25e39-c0d9-41eb-a546-d740b3f486d7")
 	)
 	(wire
 		(pts
@@ -50330,6 +50462,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 55.88) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cad712-8fb7-4794-8ee9-29ea058a67e2")
+	)
+	(wire
+		(pts
 			(xy 306.705 147.32) (xy 306.705 152.4)
 		)
 		(stroke
@@ -50830,16 +50972,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 53.34) (xy 252.73 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e408e4-4298-4525-9c36-ba1eb5cd3600")
-	)
-	(wire
-		(pts
 			(xy 303.53 207.01) (xy 318.77 207.01)
 		)
 		(stroke
@@ -50920,16 +51052,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.045 60.96) (xy 252.73 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a074da4-3595-446d-86b9-4a87dd54eb8b")
-	)
-	(wire
-		(pts
 			(xy 381 71.12) (xy 381 73.66)
 		)
 		(stroke
@@ -50957,16 +51079,6 @@
 			(type solid)
 		)
 		(uuid "8cc975c2-5b5c-4b17-acf6-cee167ef59c2")
-	)
-	(wire
-		(pts
-			(xy 233.045 58.42) (xy 252.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cca73f2-170c-4636-820f-e7bd3ecc2c00")
 	)
 	(wire
 		(pts
@@ -51040,7 +51152,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 38.1) (xy 316.865 38.1)
+			(xy 303.53 38.1) (xy 323.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -51990,6 +52102,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 29.21) (xy 323.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab40754-b116-4786-b6bd-f3b022e03f40")
+	)
+	(wire
+		(pts
 			(xy 304.8 25.4) (xy 304.8 83.82)
 		)
 		(stroke
@@ -52137,16 +52259,6 @@
 			(type solid)
 		)
 		(uuid "d37ecf71-9da0-42bd-be5e-3632e40a3b4a")
-	)
-	(wire
-		(pts
-			(xy 233.045 55.88) (xy 252.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d87a0c-9069-4177-8558-7bafb8b28bc7")
 	)
 	(wire
 		(pts
@@ -55508,6 +55620,70 @@
 			(project "MicroMod-RP2040-ProcessorBoard"
 				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a4b582-ebd8-46f3-8e8b-74b8285418cb")
+		(property "Reference" "TP1"
+			(at 218.186 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TDI"
+			(at 222.25 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:TestPoint_Pad_D0.5mm"
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47aadd3a-1246-4424-8f01-b820b3c8e8f2")
+		)
+		(instances
+			(project ""
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -60337,6 +60513,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 323.85 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66261259-f03c-47c5-b000-dc6f9305e9c6")
+		(property "Reference" "#PWR046"
+			(at 323.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 324.231 17.1958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0dfd83a-eacc-437f-bc59-0298644624a8")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 381 67.31 0)
 		(unit 1)
@@ -61893,6 +62134,70 @@
 			(project "MicroMod-RP2040-ProcessorBoard"
 				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e96240c-29e8-4f30-a876-cc545f30ffee")
+		(property "Reference" "TP4"
+			(at 218.186 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TDO"
+			(at 222.25 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:TestPoint_Pad_D0.5mm"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c01d6bf-42ad-472a-924d-7fb8376ded02")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -66087,6 +66392,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc572bf0-337b-413f-8ff5-ddc7509b5d78")
+		(property "Reference" "TP2"
+			(at 218.186 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCK"
+			(at 222.25 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:TestPoint_Pad_D0.5mm"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ebfae47-cbda-47e8-970d-c8a0d80cf74a")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 388.62 35.56 0)
 		(unit 1)
@@ -68028,6 +68397,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d78d8c84-31da-4b18-92ec-5c31fe1ded40")
+		(property "Reference" "TP3"
+			(at 218.186 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMS"
+			(at 222.25 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:TestPoint_Pad_D0.5mm"
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e30c00c-5bee-4e56-9de5-478e9507a956")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 33.02 0)
 		(unit 1)
@@ -68109,6 +68542,76 @@
 			(project "MicroMod-RP2040-ProcessorBoard"
 				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 323.85 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2588568-dc6a-4733-99d5-037ab7cf2157")
+		(property "Reference" "R2"
+			(at 326.39 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 326.39 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 324.866 25.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 323.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016f98ae-ae04-496d-b4da-0482e5b2180b")
+		)
+		(pin "2"
+			(uuid "27db2b64-4d52-42da-bd17-d70deae13a18")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "R2")
 					(unit 1)
 				)
 			)
