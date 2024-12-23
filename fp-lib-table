@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "MicroMod-RP2040-ProcessorBoard")(type "KiCad")(uri "$(KIPRJMOD)/CycloMod.pretty")(options "")(descr ""))
+  (lib (name "micromod_templates")(type "KiCad")(uri "/home/greg/dev/github/micromods/micromod_template/micromod_template.pretty")(options "")(descr ""))
+  (lib (name "micromod_library")(type "KiCad")(uri "/home/greg/dev/github/micromods/MicroMod_Processor_Board/SparkFun_MicroMod_ESP32.pretty")(options "")(descr ""))
+  (lib (name "ngff")(type "KiCad")(uri "/home/greg/dev/github/micromods/kicad-ngff/NGFF.pretty")(options "")(descr ""))
 )
