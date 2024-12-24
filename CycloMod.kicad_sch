@@ -49240,7 +49240,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.865 48.26) (xy 303.53 48.26)
+			(xy 317.5 48.26) (xy 303.53 48.26)
 		)
 		(stroke
 			(width 0)
@@ -49627,6 +49627,16 @@
 			(type solid)
 		)
 		(uuid "2bc3af9b-4e47-4679-8411-907945a233f4")
+	)
+	(wire
+		(pts
+			(xy 303.53 40.64) (xy 323.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1e574b-6b9d-4922-89f5-2b861355cf52")
 	)
 	(wire
 		(pts
@@ -50227,6 +50237,16 @@
 			(type default)
 		)
 		(uuid "530a98e5-0c3a-4c1f-82f9-5c14040f5306")
+	)
+	(wire
+		(pts
+			(xy 303.53 38.1) (xy 317.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530ac82a-d460-47b2-99e2-9ca370f9a837")
 	)
 	(wire
 		(pts
@@ -51180,16 +51200,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 38.1) (xy 323.85 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8edc0387-5426-4acc-8613-0194e2f6aa79")
-	)
-	(wire
-		(pts
 			(xy 397.51 116.84) (xy 397.51 121.92)
 		)
 		(stroke
@@ -51780,7 +51790,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 35.56) (xy 316.865 35.56)
+			(xy 303.53 35.56) (xy 317.5 35.56)
 		)
 		(stroke
 			(width 0)
@@ -51907,16 +51917,6 @@
 			(type default)
 		)
 		(uuid "b87fb2a3-af9c-4a17-9ad7-6d116ec2cdcc")
-	)
-	(wire
-		(pts
-			(xy 303.53 40.64) (xy 316.865 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6fdb79-83e6-47f2-81d9-9ea77951ae41")
 	)
 	(wire
 		(pts
@@ -52130,7 +52130,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 29.21) (xy 323.85 38.1)
+			(xy 323.85 29.21) (xy 323.85 40.64)
 		)
 		(stroke
 			(width 0)
@@ -52490,7 +52490,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 43.18) (xy 316.865 43.18)
+			(xy 303.53 43.18) (xy 317.5 43.18)
 		)
 		(stroke
 			(width 0)
@@ -52550,7 +52550,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 45.72) (xy 316.865 45.72)
+			(xy 303.53 45.72) (xy 317.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -53526,7 +53526,7 @@
 		(uuid "1d34e652-f2eb-40c0-b690-ee7506a38a30")
 	)
 	(label "QSPI_SCLK"
-		(at 306.705 35.56 0)
+		(at 306.07 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -53878,7 +53878,7 @@
 		(uuid "42e03333-da21-47c6-a00b-82fcf8b7442e")
 	)
 	(label "QSPI_SD2"
-		(at 306.705 45.72 0)
+		(at 306.07 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -55088,7 +55088,7 @@
 		(uuid "e575afde-e14b-4d97-8b69-2a18828fe2d3")
 	)
 	(label "QSPI_SD3"
-		(at 306.705 48.26 0)
+		(at 306.07 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -55132,7 +55132,7 @@
 		(uuid "e724a351-da44-41b7-8172-e94eeb3657fd")
 	)
 	(label "QSPI_SD1"
-		(at 306.705 43.18 0)
+		(at 306.07 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -55165,7 +55165,7 @@
 		(uuid "e95df087-630a-48dc-804b-fdad8b3a4fdf")
 	)
 	(label "QSPI_SS1"
-		(at 306.705 38.1 0)
+		(at 306.07 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -55198,7 +55198,7 @@
 		(uuid "ec5d02f4-689e-4568-8217-98da9279a362")
 	)
 	(label "QSPI_SD0"
-		(at 306.705 40.64 0)
+		(at 306.07 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
