@@ -47327,43 +47327,7 @@
 							)
 						)
 					)
-					(number "GND1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -43.18 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -43.18 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND3"
+					(number "GND"
 						(effects
 							(font
 								(size 0 0)
@@ -58666,14 +58630,8 @@
 		(pin "9"
 			(uuid "ffca91ed-83fc-4d7e-a6f4-5ebe7779e9a9")
 		)
-		(pin "GND1"
+		(pin "GND"
 			(uuid "4030bb0d-db96-4c41-bab2-5ef6446ba50a")
-		)
-		(pin "GND2"
-			(uuid "f14c6b01-85b1-4623-bf7e-c6d92fbea5d2")
-		)
-		(pin "GND3"
-			(uuid "2aa66644-5acd-411b-a21c-3d53f8f8f99c")
 		)
 		(instances
 			(project "MicroMod-RP2040-ProcessorBoard"
