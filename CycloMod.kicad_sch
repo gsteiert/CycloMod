@@ -53215,7 +53215,7 @@
 		(uuid "0257d6da-0475-4bf1-a9cf-01c9910f8ca1")
 	)
 	(label "SDA1"
-		(at 247.65 162.56 180)
+		(at 247.65 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54370,7 +54370,7 @@
 		(uuid "8e7a7b9b-a6cf-4c5e-a5a1-9bb1339f4661")
 	)
 	(label "SCL1"
-		(at 247.65 144.78 180)
+		(at 247.65 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54403,7 +54403,7 @@
 		(uuid "92545824-640b-4d5c-9eda-f953b3c83f9e")
 	)
 	(label "AUD_LRCLK"
-		(at 247.65 147.32 180)
+		(at 247.65 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54513,7 +54513,7 @@
 		(uuid "9dd80995-3a77-420a-b8ea-ff5afde04320")
 	)
 	(label "AUD_IN"
-		(at 247.65 139.7 180)
+		(at 247.65 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54656,7 +54656,7 @@
 		(uuid "b11ef222-ee37-4dc5-839f-c057f0834db4")
 	)
 	(label "AUD_OUT"
-		(at 247.65 149.86 180)
+		(at 247.65 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -54876,7 +54876,7 @@
 		(uuid "cbc0338f-7796-41d1-925c-d5bcc89d6713")
 	)
 	(label "AUD_BCLK"
-		(at 247.65 142.24 180)
+		(at 247.65 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
