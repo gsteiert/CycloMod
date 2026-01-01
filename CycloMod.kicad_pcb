@@ -15,8 +15,8 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(4 "In1.Cu" signal)
-		(6 "In2.Cu" signal)
+		(4 "In1.Cu" power)
+		(6 "In2.Cu" power)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -47,6 +47,68 @@
 		(55 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "prepreg")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "core")
+				(thickness 0.48)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "ENIG")
+			(dielectric_constraints no)
+			(edge_connector bevelled)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -2516,7 +2578,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "20104ed2-ff04-4a0e-a821-5bbe5f1f45d2")
@@ -3115,7 +3177,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1550733"
+		(property "LCSC" "C6063581"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3128,7 +3190,7 @@
 				)
 			)
 		)
-		(property "MPN" "10CL010YM164I7G"
+		(property "MPN" "10CL016YM164I7G"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3141,7 +3203,7 @@
 				)
 			)
 		)
-		(path "/b3538251-626f-4339-9578-cc80aadebe31")
+		(path "/d4004d1a-deb5-475d-9748-357fc0031950")
 		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
@@ -8847,185 +8909,6 @@
 			)
 		)
 	)
-	(footprint "MicroMod-RP2040-ProcessorBoard:ORDERING_INSTRUCTIONS"
-		(layer "F.Cu")
-		(uuid "9fba083b-73a3-43e5-9807-4d71aa9d51a8")
-		(at 150 25)
-		(descr "<h3>Special Ordering Instructions Alert</h3>\n<p>Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.</p>\n<p>(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)</p>\n<p>Use 0.7\" Vector font @ 8% ratio")
-		(property "Reference" "LOGO4"
-			(at 0 -3.84 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "82cb6389-ef93-4e8a-98bb-3c544a3bb86e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SPECIAL_INSTRUCTIONS-ORDERING"
-			(at 24.905 -2.57 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba8b607a-ad77-41e6-87bf-ddc53306bae2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23a54c9a-8daa-4dec-9388-afca93cd30ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b2b5531-9354-402d-ba27-8f477dc5c8ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "caf1f118-70d7-4156-90d3-771c34cb8b47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "670148f5-0d97-41df-8642-a8c4d809eb45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/b4dd8e1f-7a14-403b-8f23-2041f1bf24c6")
-		(sheetname "/")
-		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_bom)
-		(fp_line
-			(start 0 0)
-			(end 101.6 0)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8213a92b-78eb-4d27-bef1-1fe57bbf321c")
-		)
-		(fp_line
-			(start 0 8.89)
-			(end 0 0)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d84548ec-060f-4552-a83b-77030cbe09eb")
-		)
-		(fp_line
-			(start 0 8.89)
-			(end 101.6 8.89)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "26b5c85c-cec8-4584-b554-dd641b1b94b6")
-		)
-		(fp_line
-			(start 0 50.8)
-			(end 0 8.89)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4edd5e99-4484-42c4-b4a5-581cd720d42a")
-		)
-		(fp_line
-			(start 101.6 0)
-			(end 101.6 8.89)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8529db63-6f60-4dbd-9eb8-2ea08ac21cca")
-		)
-		(fp_line
-			(start 101.6 8.89)
-			(end 101.6 50.8)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fa84bfcc-d02e-4955-a34b-f7710f606afd")
-		)
-		(fp_line
-			(start 101.6 50.8)
-			(end 0 50.8)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c70e733e-8bbe-4137-9130-4832417cb377")
-		)
-		(fp_text user "Ordering Instructions:"
-			(at 1.27 1.27 0)
-			(layer "F.Fab")
-			(uuid "803846b7-5a7d-4872-a99a-a1f6a0388c2d")
-			(effects
-				(font
-					(size 2.5908 2.5908)
-					(thickness 0.4572)
-				)
-				(justify left top)
-			)
-		)
-		(fp_text user "(Add these comments when uploading gerbers.)"
-			(at 1.27 6.35 0)
-			(layer "F.Fab")
-			(uuid "8ea10fce-f578-4442-9735-4c2c1bbc41dd")
-			(effects
-				(font
-					(size 1.63576 1.63576)
-					(thickness 0.14224)
-				)
-				(justify left top)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "LED_SMD:LED_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a821b0b5-2c51-4e97-8736-505cedee9c45")
@@ -11288,6 +11171,91 @@
 				(xyz -90 0 0)
 			)
 		)
+	)
+	(footprint "MicroMod-RP2040-ProcessorBoard:CREATIVE_COMMONS"
+		(layer "F.Cu")
+		(uuid "f8c5a678-ab72-4d77-9b82-9d420b152007")
+		(at 159.385 156.591)
+		(descr "<h3>Creative Commons License Template</h3>\n<p>CC BY-SA 4.0 License with <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">link to license</a> and placeholder for designer name.</p>\n<p>Devices using:\n<ul><li>FRAME_LEDGER</li>\n<li>FRAME_LETTER</li></ul></p>")
+		(property "Reference" "FRAME1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "877ac6ab-01cd-4d06-ae69-2b98e588c283")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FRAME-LEDGER"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fff4c55-804e-439d-86d5-b46d77f1b8eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12b817c3-a6d8-473f-b1be-5a3b40d8203f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca29917b-3c4c-4651-992a-e21a0c821d8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a6369f-a51e-4f99-a250-f4ca518ba51d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f333ddce-7635-4d01-b1d0-88bd3f601ec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/35ceb704-1c90-44d5-95b8-9b5a71a9d1ff")
+		(sheetname "/")
+		(sheetfile "CycloMod.kicad_sch")
+		(attr exclude_from_bom)
+		(embedded_fonts no)
 	)
 	(footprint "custom:C_0402_1005Metric_small_pads"
 		(layer "F.Cu")
@@ -16611,7 +16579,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "MIC5504-2.5YMT"
+		(property "Value" "XC6223-2.5V"
 			(at 0 -2 90)
 			(layer "B.Fab")
 			(uuid "c4373e60-ee46-4856-80ca-890146f7bc38")
