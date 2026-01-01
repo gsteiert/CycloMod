@@ -5742,6 +5742,7 @@
 		(property "Reference" "R15"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bb2abdf8-f1e4-4690-888b-e5eaabb32a83")
 			(effects
 				(font
