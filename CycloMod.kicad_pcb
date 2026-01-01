@@ -6,7 +6,13 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "CycloMod FPGA/MCU Module")
+		(date "2026-01-01")
+		(rev "0.2")
+		(company "Steiert Solutions")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -244,7 +250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -298,7 +304,7 @@
 		)
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/6a20b1f3-9759-49bd-98c2-65bf58c9af3a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -472,7 +478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -526,7 +532,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/672a0d51-7c4a-40f2-8a71-3b31757219b6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -694,7 +700,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -748,7 +754,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f0152f88-ed0d-4878-8b71-b890d6b19859")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -916,7 +922,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -970,7 +976,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e8b4a068-1adc-4400-b41f-ed76896fd17b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1138,7 +1144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1192,7 +1198,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f52dfd32-6f7f-4c4d-9d69-73bc5ae55806")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd dnp)
 		(fp_line
@@ -1408,9 +1414,9 @@
 			)
 		)
 		(path "/4739af98-575f-45e0-b1cb-3340288da38a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom)
 		(fp_arc
 			(start 6.288353 -21.364345)
 			(mid 3.999999 -19.625)
@@ -3135,8 +3141,8 @@
 				)
 			)
 		)
-		(path "/d4004d1a-deb5-475d-9748-357fc0031950")
-		(sheetname "Root")
+		(path "/b3538251-626f-4339-9578-cc80aadebe31")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4848,7 +4854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4900,7 +4906,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/c3a660a4-9fcd-446d-a06f-4048821eb4b6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5054,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5082,9 +5088,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8e96240c-29e8-4f30-a876-cc545f30ffee")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.3 0)
@@ -5147,7 +5153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5175,9 +5181,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d78d8c84-31da-4b18-92ec-5c31fe1ded40")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.3 0)
@@ -5240,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5292,7 +5298,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/30768e77-2a68-408b-aea2-49f3b302ff03")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5466,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5520,7 +5526,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/833d84c5-8d05-468b-983e-94e93e37a956")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5667,6 +5673,225 @@
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
+		(uuid "73f78cd4-a1f1-4e47-93cd-74fd651b2266")
+		(at 149.352 97.536 180)
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R15"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "bb2abdf8-f1e4-4690-888b-e5eaabb32a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "c04d2441-6e02-49eb-bada-02c82272e1fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8eca72c-21d1-4e8e-9f23-938836658a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56a7dcee-18e5-4ea3-9464-dd6e014ca95d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C106225"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70f251b2-2d75-46ab-b39f-59d9eafba75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-0710KL "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21e7f7c7-9c29-402d-be20-e5816fb20df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/c12decdd-564c-44f1-a2e7-37138787f13e")
+		(sheetname "/")
+		(sheetfile "CycloMod.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.7 0.35)
+			(end -0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "de9d2992-9000-47a0-b714-6c49e5f6e7b4")
+		)
+		(fp_line
+			(start 0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2aacbd72-77ca-4355-b79b-620fc9190cf0")
+		)
+		(fp_line
+			(start -0.7 0.35)
+			(end -0.7 -0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e24be78-4b69-440c-8a89-1e2d5b554b82")
+		)
+		(fp_line
+			(start -0.7 -0.35)
+			(end 0.7 -0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f25193f-293f-4afe-9f9a-11367c8b0ab5")
+		)
+		(fp_line
+			(start 0.3 0.15)
+			(end -0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce440be8-1fe0-4883-b9cb-45f5e42d92a3")
+		)
+		(fp_line
+			(start 0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "395fcb94-0a6c-46f1-9a26-5c928252e923")
+		)
+		(fp_line
+			(start -0.3 0.15)
+			(end -0.3 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8360faa0-49b9-4c60-a7e0-66ae1ba370cd")
+		)
+		(fp_line
+			(start -0.3 -0.15)
+			(end 0.3 -0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "23e571a3-55a5-4399-a24d-b5941b01851c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "77ede82d-0d51-46f3-989f-8d1b9b74e5f8")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0 180)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "85bff612-2b80-4f98-9e9d-c56b24083cc0")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0 180)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "e7b85209-007b-47e0-a676-fabc9c625af0")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0 180)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "d8adace7-69fe-4328-98ea-203df31b7f59")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0 180)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 63 "/QSPI_SD1")
+			(pintype "passive")
+			(uuid "ccbb8b80-96a7-406e-b640-f42c7106cff2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0201_0603Metric"
+		(layer "F.Cu")
 		(uuid "7aad0a38-ef34-4ca0-aae8-0e92b0fb15a7")
 		(at 148.7 99.15)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
@@ -5694,7 +5919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5748,7 +5973,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e2588568-dc6a-4733-99d5-037ab7cf2157")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5916,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5970,7 +6195,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fbb8a508-da2f-44a9-8a97-f5b37b0e6440")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -6157,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6211,7 +6436,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b37a4a8c-0ec0-46f4-8202-288e40c9474e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6379,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6433,7 +6658,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/866c7f02-d8f8-4e51-b6d8-d0a12cdf6c63")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6601,7 +6826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6655,7 +6880,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c66e6c1d-ae0c-4444-9b5c-c634366b4c47")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6823,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6875,7 +7100,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/2710da04-bdb4-4d37-8023-b2d1498488c6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7049,7 +7274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7103,7 +7328,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b2d175af-a0bf-4f5f-a23c-72d091a9d99d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7322,7 +7547,7 @@
 			)
 		)
 		(path "/491205da-7b8b-4dc4-bbfe-3e9fff2a00d2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_rect
@@ -7607,7 +7832,7 @@
 			)
 		)
 		(path "/b9274218-e1e0-4fbf-82dd-6fa23251929d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -8625,11 +8850,12 @@
 	(footprint "MicroMod-RP2040-ProcessorBoard:ORDERING_INSTRUCTIONS"
 		(layer "F.Cu")
 		(uuid "9fba083b-73a3-43e5-9807-4d71aa9d51a8")
-		(at 168.135 66.705)
+		(at 150 25)
 		(descr "<h3>Special Ordering Instructions Alert</h3>\n<p>Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.</p>\n<p>(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)</p>\n<p>Use 0.7\" Vector font @ 8% ratio")
 		(property "Reference" "LOGO4"
 			(at 0 -3.84 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "82cb6389-ef93-4e8a-98bb-3c544a3bb86e")
 			(effects
 				(font
@@ -8641,6 +8867,7 @@
 		(property "Value" "SPECIAL_INSTRUCTIONS-ORDERING"
 			(at 24.905 -2.57 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ba8b607a-ad77-41e6-87bf-ddc53306bae2")
 			(effects
 				(font
@@ -8700,9 +8927,9 @@
 			)
 		)
 		(path "/b4dd8e1f-7a14-403b-8f23-2041f1bf24c6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr dnp)
+		(attr exclude_from_bom)
 		(fp_line
 			(start 0 0)
 			(end 101.6 0)
@@ -8828,7 +9055,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8882,7 +9109,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c67803b2-7a4d-4f3e-a9ce-ec78fa4d63f7")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -9069,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9097,9 +9324,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bc572bf0-337b-413f-8ff5-ddc7509b5d78")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.3 0)
@@ -9162,7 +9389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9216,7 +9443,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cc7eab1d-8813-464b-815a-171a6fc24fa2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9384,7 +9611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9412,9 +9639,9 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/12a4b582-ebd8-46f3-8e8b-74b8285418cb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.3 0)
@@ -9477,7 +9704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9531,7 +9758,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/21ea0c4d-5e5e-4199-9b31-c064f9e1bf00")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9699,7 +9926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9751,7 +9978,7 @@
 		)
 		(property ki_fp_filters "Crystal*")
 		(path "/a5801d88-02b5-4149-851a-727f91677ee0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9953,7 +10180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10007,7 +10234,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bc854e64-4634-4a32-9ee1-61965e06d047")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -10194,7 +10421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10248,7 +10475,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b4274c9f-35c8-45bd-98b8-9c5a0f86df39")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10416,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10468,7 +10695,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6795c4cf-f987-415f-8d76-50001bec583e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10642,7 +10869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10696,7 +10923,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/24062394-156d-424c-bbca-186eb24ba459")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10863,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10915,7 +11142,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/befebcc2-4fae-4d18-869e-26dbfa30e50b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -11062,125 +11289,6 @@
 			)
 		)
 	)
-	(footprint "MicroMod-RP2040-ProcessorBoard:CREATIVE_COMMONS"
-		(layer "F.Cu")
-		(uuid "eea5778a-1862-4fe9-81da-b93be80eafa6")
-		(at 217.845 140.235)
-		(descr "<h3>Creative Commons License Template</h3>\n<p>CC BY-SA 4.0 License with <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">link to license</a> and placeholder for designer name.</p>\n<p>Devices using:\n<ul><li>FRAME_LEDGER</li>\n<li>FRAME_LETTER</li></ul></p>")
-		(property "Reference" "FRAME1"
-			(at -13.375 7.72 0)
-			(layer "F.SilkS")
-			(uuid "cfc3206e-d431-4a9c-bcaa-7769dbc52c6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "FRAME-LEDGER"
-			(at -17.185 16.61 0)
-			(layer "F.Fab")
-			(uuid "14fde4ad-83e2-413d-9589-d9419fba46a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca4b5b33-9f44-494e-8644-fec8c261822b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ec1ea84-f323-49b3-bc30-161b65c8556a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c335400e-e19c-4ec4-b42b-35eedef5b4bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d1c9c638-a781-44c7-91e7-55d9412dccaa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/35ceb704-1c90-44d5-95b8-9b5a71a9d1ff")
-		(sheetname "Root")
-		(sheetfile "CycloMod.kicad_sch")
-		(attr dnp)
-		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
-			(at -20.32 -5.08 0)
-			(layer "F.Fab")
-			(uuid "515133a1-639a-43fd-b098-91fcbfaf4289")
-			(effects
-				(font
-					(size 1.63576 1.63576)
-					(thickness 0.14224)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
-			(at 0 -2.54 0)
-			(layer "F.Fab")
-			(uuid "701a3e86-29a7-4a69-9867-5d67933a80a1")
-			(effects
-				(font
-					(size 1.63576 1.63576)
-					(thickness 0.14224)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "Designed by:"
-			(at 11.43 0 0)
-			(layer "F.Fab")
-			(uuid "af912fe6-b6da-4201-80e2-cfdff5676b0d")
-			(effects
-				(font
-					(size 1.63576 1.63576)
-					(thickness 0.14224)
-				)
-				(justify left bottom)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "custom:C_0402_1005Metric_small_pads"
 		(layer "F.Cu")
 		(uuid "fbcd2f8b-3ad6-47ce-be68-1f10c0491367")
@@ -11210,7 +11318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11262,7 +11370,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7efc0e70-1987-4429-8c7c-b0f929e611ba")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11418,7 +11526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11476,7 +11584,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d336d690-39bb-4766-b70e-e939e0469d6f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11647,7 +11755,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11705,7 +11813,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a7be453b-9bf7-44ac-854b-08452f2dd391")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11864,7 +11972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "W25Q128JVP"
 			(at 0.5 -3.45 0)
 			(layer "B.Fab")
 			(uuid "b7a085e1-302f-49b1-b054-eaedbd351f0e")
@@ -11932,7 +12040,7 @@
 		)
 		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/b6ef3c10-036d-42a7-b034-2eeae8a84b3b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12229,7 +12337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12287,7 +12395,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/390fc16b-a32f-45cc-83aa-1127943f9279")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12458,7 +12566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12516,7 +12624,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b04b3b4f-a9b2-4b97-ba1b-e60aa4a5d8a3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12687,7 +12795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12745,7 +12853,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/11af46e7-8de6-40a3-9442-5b4ffeeb9b21")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12916,7 +13024,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12974,7 +13082,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/9de1018d-8563-4781-add9-ed3acc3ab2ec")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13145,7 +13253,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13203,7 +13311,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/350aab5e-d756-4cf9-a99b-711546fa3162")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13428,9 +13536,9 @@
 			)
 		)
 		(path "/d5787359-4a91-40a3-a252-53a89bbae8ef")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr dnp)
+		(attr exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 0.248928 0.903689) (xy 0.26557 0.895368) (xy 0.275571 0.895368) (xy 0.29557 0.885368) (xy 0.305571 0.885368)
@@ -13512,7 +13620,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13570,7 +13678,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b135c8d4-1337-49e7-b6b4-f4374f9ceb45")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13741,7 +13849,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13799,7 +13907,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/39913eb7-33a7-4b1e-8c65-3274b214e2d3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13976,7 +14084,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14034,7 +14142,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6137b58d-0981-4684-b11d-43181ab1b57b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14205,7 +14313,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14263,7 +14371,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a3b28cc8-1c7c-48dc-a2cc-30a060c8e9a2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14434,7 +14542,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14492,7 +14600,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/87e200bd-a5c5-469d-9e38-ef16a69576c2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14663,7 +14771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14721,7 +14829,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/79c3f04f-827d-4a9c-9bfa-065406e93e6b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14898,7 +15006,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14954,7 +15062,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/64539a2d-b8ae-43a4-90e4-f5569fbff706")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15131,7 +15239,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15187,7 +15295,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f47710a7-d52d-403a-9562-a9f17a77103a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15364,7 +15472,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15422,7 +15530,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/01db25ff-ba29-46fa-882c-7455f120c8a4")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15593,7 +15701,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15651,7 +15759,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/af09db25-62a2-4e4b-ace5-a8526005ad7d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15828,7 +15936,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15886,7 +15994,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ec60e8a7-70c0-4518-886b-b3fc02520e25")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16057,7 +16165,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16115,7 +16223,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ae3c17e9-cb49-4aee-8135-2dd133f4bdaa")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16286,7 +16394,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16344,7 +16452,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ad8cbcbd-7f35-45e2-b66c-f98a50b9634f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16571,7 +16679,7 @@
 		)
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/6f5e054b-8f73-4716-9c0a-e51470759ca1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16857,7 +16965,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16915,7 +17023,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/708c9bf7-a739-44c4-94aa-e97943ebd01d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17086,7 +17194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17144,7 +17252,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ee11683f-835b-428a-b140-544480aebb77")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17315,7 +17423,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17373,7 +17481,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/394b00a1-1d1f-4410-8398-b26c35d0a8d0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17544,7 +17652,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17602,7 +17710,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d8e2c425-9aca-44e7-abcc-7a5640c7f173")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17773,7 +17881,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17829,7 +17937,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/175b3a23-ddcd-48a8-9522-ed8e8ca07fcf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18006,7 +18114,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18064,7 +18172,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6c475cf0-b72c-4913-b21e-12ff1e60df07")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18241,7 +18349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18299,7 +18407,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/27c75cb6-8dcc-40da-a61f-442f378513e2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18470,7 +18578,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18528,7 +18636,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/583f003c-5c3d-4bdb-bac5-67e5b104a927")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18699,7 +18807,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18757,7 +18865,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/19c49d0c-2e54-4fc0-afcd-e4c89ce8221e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18928,7 +19036,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18986,7 +19094,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/d514cd00-ad2c-4748-8b50-53f7eaaa28a6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19157,7 +19265,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19215,7 +19323,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/642d9a5e-370b-4c31-a9e5-2a6d801515c0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19386,7 +19494,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19444,7 +19552,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4c956e4e-ddb3-413f-b2fb-9f632786bc8a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19615,7 +19723,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19673,7 +19781,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7d2a904e-4593-4a3d-8ff0-a2bb6a0ddc99")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19850,7 +19958,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19904,9 +20012,9 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/617a8fa6-56b6-4e6e-afc4-819f5097cd3c")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "CycloMod.kicad_sch")
-		(attr exclude_from_pos_files dnp)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -0.15 0.1) (xy -0.65 0.1) (xy -0.65 -0.1) (xy -0.15 -0.1)
@@ -20193,8 +20301,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "0.8mm PCB\n45 degree chamfered edge\nFour layer design"
-		(at 171.6611 84.3334 0)
+	(gr_text "0.8mm PCB\nFour layer design\n45 degree chamfered edge\nHard gold plating on card edge (min 15 micro inches)"
+		(at 155 45 0)
 		(layer "F.Fab")
 		(uuid "5066b8ce-617a-4387-9e5f-7b2b8224cb76")
 		(effects
@@ -20205,20 +20313,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "N. Seidle"
-		(at 204.7823 126.9046 0)
-		(layer "F.Fab")
-		(uuid "6d7e3ab5-1ed9-436d-87ab-4b66d23f31af")
-		(effects
-			(font
-				(size 1.5113 1.5113)
-				(thickness 0.2667)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Units in mm"
-		(at 154.455 134.28 0)
+		(at 143.256 129.921 0)
 		(layer "F.Fab")
 		(uuid "c5fc6774-6a2c-4115-89b7-5cf47f9a396c")
 		(effects
@@ -20227,6 +20323,18 @@
 				(thickness 0.2667)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Released under the Creative Commons Attribution Share-Alike 4.0 License\nhttps://creativecommons.org/licenses/by-sa/4.0/\nDerived from MicroMod RP2040 Processor Board by: N. Seidle, SparkFun"
+		(at 161 174 0)
+		(layer "F.Fab")
+		(uuid "e4bf5234-0c9d-456a-8ae0-d770a6b62cfb")
+		(effects
+			(font
+				(size 1.5113 1.5113)
+				(thickness 0.2667)
+			)
+			(justify left top)
 		)
 	)
 	(dimension
@@ -20272,7 +20380,7 @@
 		(pts
 			(xy 151.725 118.5) (xy 158.425 118.5)
 		)
-		(height 3.81)
+		(height 2.531)
 		(format
 			(prefix "")
 			(suffix "")
@@ -20283,14 +20391,14 @@
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0)
 			(keep_text_aligned yes)
 		)
 		(gr_text "6.70 mm"
-			(at 155.075 120.532 0)
+			(at 157.607 123.317 0)
 			(layer "F.Fab")
 			(uuid "9697a12a-9683-4e4a-a6ba-ca30698de987")
 			(effects
@@ -20355,14 +20463,14 @@
 		(style
 			(thickness 0.05)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(arrow_direction outward)
 			(extension_height 0.58642)
 			(extension_offset 0)
 			(keep_text_aligned yes)
 		)
 		(gr_text "11.95 mm"
-			(at 144.55 119.262 0)
+			(at 144.526 123.317 0)
 			(layer "F.Fab")
 			(uuid "f0ec4297-2790-4afc-a055-b8eccd2cec3d")
 			(effects
@@ -20548,6 +20656,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "392fd95a-374c-4657-8e5e-be93baef3abf")
+	)
+	(segment
+		(start 149.672 97.536)
+		(end 150.241 97.536)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "3b47dd55-9f43-494e-a0b8-deda6bc30ff3")
 	)
 	(segment
 		(start 141 107.5)
@@ -21269,6 +21385,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "78cada29-a100-465b-bbd8-d235a90bca5e")
+	)
+	(via
+		(at 150.241 97.536)
+		(size 0.4)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "83d60156-3dc8-4f62-9cb9-ba489a42bf0c")
 	)
 	(via
 		(at 141.25 101.15)
@@ -25887,12 +26011,28 @@
 		(uuid "f369e5cb-10ab-4dc0-829e-45b16b1c0e51")
 	)
 	(segment
-		(start 146.65 98.95)
-		(end 147.25 98.35)
+		(start 149 98.35)
+		(end 149.02 98.35)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "2db8198a-d85a-4086-9a93-789a2548d394")
+		(uuid "08a5433d-3b95-44c4-8d97-0b04b48e3886")
+	)
+	(segment
+		(start 148 98.15)
+		(end 148 98.143676)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "26b180e5-3dea-4715-b38e-e2a73d65440a")
+	)
+	(segment
+		(start 148 98.143676)
+		(end 148.143676 98)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "29d80b13-1c02-4160-bfef-b079864abc6e")
 	)
 	(segment
 		(start 149.95 98.43)
@@ -25903,20 +26043,12 @@
 		(uuid "40901b83-41f7-4fed-9c1a-650291f17467")
 	)
 	(segment
-		(start 148.65 98)
-		(end 149 98.35)
+		(start 148.143676 98)
+		(end 148.65 98)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "45e42e8b-8f0d-4a85-a852-68d91d96a54f")
-	)
-	(segment
-		(start 149 98.35)
-		(end 149.02 98.35)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 36)
-		(uuid "56bfb7d5-6bec-427c-b870-fc3156805955")
+		(uuid "41c15501-d832-4324-9a66-cafabdcf9655")
 	)
 	(segment
 		(start 151.7 99.5625)
@@ -25927,36 +26059,12 @@
 		(uuid "5805a36b-6c56-4031-b468-677379cc6191")
 	)
 	(segment
-		(start 147.25 98.35)
-		(end 147.8 98.35)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 36)
-		(uuid "6388d264-9e8a-4d6b-8a9f-f505eec349af")
-	)
-	(segment
-		(start 147.8 98.35)
-		(end 148 98.15)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 36)
-		(uuid "6a833cda-3245-4402-a1e9-ae724709ee97")
-	)
-	(segment
 		(start 150.88 98.43)
 		(end 151.325 98.875)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
 		(uuid "7695053c-c64a-47fa-a4cb-d67c557164b8")
-	)
-	(segment
-		(start 148 98.15)
-		(end 148 98.143676)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 36)
-		(uuid "77ff0e1c-a0f5-41a4-9706-989203515790")
 	)
 	(segment
 		(start 149.02 98.35)
@@ -25967,28 +26075,28 @@
 		(uuid "8241bf3a-a9de-4bf5-90a8-3aec84d3d9c6")
 	)
 	(segment
-		(start 148 98.143676)
-		(end 148.143676 98)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 36)
-		(uuid "866cdb9b-774c-41bf-831f-767af243af7f")
-	)
-	(segment
 		(start 143 99.4)
-		(end 143.45 98.95)
+		(end 143.721 98.679)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "8972d031-9737-42d3-8032-6f39130f08a4")
+		(uuid "893825ae-94bb-479b-a5e4-c79d555ee361")
 	)
 	(segment
-		(start 148.143676 98)
-		(end 148.65 98)
+		(start 148.65 98)
+		(end 149 98.35)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "962645ac-3720-4c9b-b12d-a62ea1e5db30")
+		(uuid "8b316fe9-e8da-4aa6-a3cc-e09b108bf329")
+	)
+	(segment
+		(start 147.8 98.35)
+		(end 148 98.15)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "8b427d48-ac47-4c2c-a636-df747c2483f1")
 	)
 	(segment
 		(start 151.7 99.25)
@@ -25999,12 +26107,28 @@
 		(uuid "9ce5e8a2-3618-4960-a551-aa6b3fff0da9")
 	)
 	(segment
-		(start 143.45 98.95)
-		(end 146.65 98.95)
+		(start 146.921 98.679)
+		(end 147.25 98.35)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 36)
-		(uuid "a46679aa-b360-421d-84f0-d92b9dc58d8a")
+		(uuid "b1ab438f-24fb-4b4e-b1b1-48f808e542a8")
+	)
+	(segment
+		(start 147.25 98.35)
+		(end 147.8 98.35)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "b25df498-cd2d-4a59-943e-1b043f244251")
+	)
+	(segment
+		(start 143.721 98.679)
+		(end 146.921 98.679)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "e5ac4be9-619a-4776-9555-5584a7b0b1cc")
 	)
 	(segment
 		(start 149.87 98.35)
@@ -26567,14 +26691,6 @@
 		(uuid "cce9fd07-9f65-4074-b106-2f60f1fb725c")
 	)
 	(segment
-		(start 141.75 102.25)
-		(end 141.5 102.5)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "d7f4b51f-40e7-4605-adb0-bd1a0f99ed12")
-	)
-	(segment
 		(start 140.48 99.75)
 		(end 140.48 99.87)
 		(width 0.25)
@@ -26593,7 +26709,7 @@
 	(segment
 		(start 142.5 102.5)
 		(end 142.5 103)
-		(width 0.1)
+		(width 0.2)
 		(layer "F.Cu")
 		(net 46)
 		(uuid "e6d2f32e-079c-463c-bb6e-dc67f37d2c76")
@@ -26621,22 +26737,6 @@
 		(layer "F.Cu")
 		(net 46)
 		(uuid "f02dc15e-8bf2-4403-9be0-5b6a59960ffa")
-	)
-	(segment
-		(start 142.5 102.5)
-		(end 142.25 102.25)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "f2f8f105-6dbc-40c7-9351-cf6133eeb830")
-	)
-	(segment
-		(start 142.25 102.25)
-		(end 141.75 102.25)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "f6cdc1d5-ac25-4e1d-a921-6944eb41de44")
 	)
 	(segment
 		(start 144 107)
@@ -26903,20 +27003,52 @@
 		(uuid "04df46e4-a92c-4f76-8797-9b0cc9d3a2da")
 	)
 	(segment
-		(start 146.3 98.65)
+		(start 149.413 97.917)
+		(end 150.817 97.917)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "108e8613-cf4d-4d26-8c2f-b8de9778ef92")
+	)
+	(segment
+		(start 148.214 97.536)
+		(end 149.032 97.536)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "238bffce-fa7a-424c-8057-b81e42833005")
+	)
+	(segment
+		(start 142.952513 98.652513)
+		(end 143.434026 98.171)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "4ae56ac8-c43f-44d5-bcf9-05e0ca3883cc")
+	)
+	(segment
+		(start 146.779 98.171)
 		(end 147 97.95)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "1b58da8e-dbdd-4fb0-87fe-6d526a2afbf2")
+		(uuid "54bde298-4733-498a-8697-10eefac3949d")
 	)
 	(segment
-		(start 147.8 97.95)
-		(end 148.25 97.5)
+		(start 149.032 97.536)
+		(end 149.413 97.917)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "41cf554f-5077-45a7-b421-cf1836f62ff3")
+		(uuid "6be3a797-9e30-4ea0-91dc-bff342d8ceb7")
+	)
+	(segment
+		(start 150.817 97.917)
+		(end 152.1 99.2)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "714d6e12-c363-48dc-9ebd-0caeeb946745")
 	)
 	(segment
 		(start 152.1 99.2)
@@ -26924,15 +27056,7 @@
 		(width 0.1)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "498ac7e4-1856-4863-97bf-b19a370deee4")
-	)
-	(segment
-		(start 150.4 97.5)
-		(end 152.1 99.2)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "67247533-84f1-44f4-9ac8-d9ba55f5098c")
+		(uuid "9c8b8d44-c7a6-4278-8917-e5627c57cef5")
 	)
 	(segment
 		(start 147 97.95)
@@ -26940,23 +27064,7 @@
 		(width 0.1)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "8366c62f-ced2-4d03-8116-75c823c6a3c9")
-	)
-	(segment
-		(start 148.25 97.5)
-		(end 150.4 97.5)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "909d1481-9e77-4392-ba19-e4352ac3fdac")
-	)
-	(segment
-		(start 142.955026 98.65)
-		(end 146.3 98.65)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "9f2e1faa-7584-48a0-96b7-251988e85565")
+		(uuid "b64ba3cb-14a6-49a0-a6d1-21a7cf27212e")
 	)
 	(segment
 		(start 142.952513 98.652513)
@@ -26967,12 +27075,20 @@
 		(uuid "c46a1fad-df4a-4c1f-9d5c-c52ce141aca0")
 	)
 	(segment
-		(start 142.952513 98.652513)
-		(end 142.955026 98.65)
+		(start 147.8 97.95)
+		(end 148.214 97.536)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "f6d0e1b3-659f-4706-8639-b7a9ab5f8430")
+		(uuid "c4e9d0fc-1ee4-41db-9697-d0e6e996a381")
+	)
+	(segment
+		(start 143.434026 98.171)
+		(end 146.779 98.171)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "e6b45a3f-555a-4237-90cd-4a2e1b3d7bc1")
 	)
 	(via
 		(at 142.952513 98.652513)
@@ -27175,20 +27291,12 @@
 		(uuid "08f93cac-2815-4527-a2a2-730b0b386a1e")
 	)
 	(segment
-		(start 146.05 97.95)
-		(end 142.8 97.95)
+		(start 146.5 97.5)
+		(end 146.337 97.663)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 66)
-		(uuid "426d22d6-a810-444e-96e9-8c0b4a7be87a")
-	)
-	(segment
-		(start 147.7 97.5)
-		(end 146.5 97.5)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "4867dc23-3eb9-4627-9b89-50eea444716a")
+		(uuid "0abfad5a-a908-40a1-9c43-68fc0fdd8d96")
 	)
 	(segment
 		(start 152.7 98.640772)
@@ -27199,12 +27307,20 @@
 		(uuid "4cff082d-2a02-4d0d-b0aa-d0cdeb1c2f2b")
 	)
 	(segment
-		(start 142.25 101.75)
-		(end 142.5 102)
+		(start 146.337 97.663)
+		(end 143.087 97.663)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 66)
-		(uuid "87f9ca7a-b9ef-4038-86d4-12c90afc4d2c")
+		(uuid "7c1f12f8-5213-496f-9190-4d6f686e1944")
+	)
+	(segment
+		(start 142.25 98.5)
+		(end 142.25 101.75)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "a60a6569-2ba8-4a4c-9425-8b9a268ab988")
 	)
 	(segment
 		(start 152.7 98.4)
@@ -27215,28 +27331,28 @@
 		(uuid "a6e00266-14f7-46a5-b145-370448df6ccf")
 	)
 	(segment
-		(start 142.8 97.95)
+		(start 147.7 97.5)
+		(end 146.5 97.5)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "bd06e1c2-417d-4981-9999-db51900fb256")
+	)
+	(segment
+		(start 143.087 97.663)
 		(end 142.25 98.5)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 66)
-		(uuid "b1b37da3-47ea-49b2-bbcb-d7a519abb858")
+		(uuid "d3d1ff51-9e39-4dc9-8533-67e60362edff")
 	)
 	(segment
-		(start 146.5 97.5)
-		(end 146.05 97.95)
+		(start 142.25 101.75)
+		(end 142.5 102)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 66)
-		(uuid "c36646f5-c9bd-43f9-b81c-8d93e287fad8")
-	)
-	(segment
-		(start 142.25 98.5)
-		(end 142.25 101.75)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 66)
-		(uuid "f305239d-6da8-45c2-b76d-5f8d300e708c")
+		(uuid "f27326c8-da42-4184-b2e8-b4164eb86947")
 	)
 	(via
 		(at 147.7 97.5)
@@ -27255,12 +27371,28 @@
 		(uuid "e76bbee0-b30a-4741-9a23-40e445753f1c")
 	)
 	(segment
-		(start 149.415 96.865)
+		(start 148.921 96.865)
 		(end 147.7 96.865)
 		(width 0.1)
 		(layer "B.Cu")
 		(net 66)
-		(uuid "7cf946d3-0092-4400-8d9f-1b36d5e3dbde")
+		(uuid "1f356877-6766-4cb5-8e9a-2b74fa6e3c05")
+	)
+	(segment
+		(start 152.7 98.4)
+		(end 150.456 98.4)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 66)
+		(uuid "33428db5-c841-4abd-b690-9b0edf3d33c5")
+	)
+	(segment
+		(start 150.456 98.4)
+		(end 148.921 96.865)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 66)
+		(uuid "5426a62b-ff09-4512-8818-f1d13e603e1b")
 	)
 	(segment
 		(start 147.7 97.5)
@@ -27271,20 +27403,12 @@
 		(uuid "c1bfc57a-8ad8-4f86-a1d0-2ee920ab98be")
 	)
 	(segment
-		(start 150.95 98.4)
-		(end 149.415 96.865)
+		(start 143.94 99.06)
+		(end 142.75 100.25)
 		(width 0.1)
-		(layer "B.Cu")
-		(net 66)
-		(uuid "c8e9d055-84d8-405d-9a0a-5ac449baac41")
-	)
-	(segment
-		(start 152.7 98.4)
-		(end 150.95 98.4)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 66)
-		(uuid "fea616e9-091f-4163-8761-315a62c45fbb")
+		(layer "F.Cu")
+		(net 67)
+		(uuid "326ffa0c-b3c0-4367-96b1-479373bf5ceb")
 	)
 	(segment
 		(start 153.327102 98.772898)
@@ -27295,28 +27419,20 @@
 		(uuid "4623774d-60fa-4193-bd38-81acfd24ce47")
 	)
 	(segment
-		(start 147.075 99.2)
-		(end 143.8 99.2)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "762b2a54-0494-41e0-824e-e1c09fae1014")
-	)
-	(segment
 		(start 147.525 98.75)
-		(end 147.075 99.2)
+		(end 147.215 99.06)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "86adcb15-2dd5-41dc-9665-9c2be1b68e73")
+		(uuid "728c8ebe-0768-43c2-a780-1b594f6884d7")
 	)
 	(segment
-		(start 142.75 100.25)
-		(end 142.75 101.75)
+		(start 147.215 99.06)
+		(end 143.94 99.06)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "a600fd15-323d-4240-87fc-902f8b53731a")
+		(uuid "85ababae-edd2-4746-b3e9-843d87363c50")
 	)
 	(segment
 		(start 142.75 101.75)
@@ -27324,15 +27440,7 @@
 		(width 0.1)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "a6e20124-9cc7-4c6c-93e5-37b708272fbd")
-	)
-	(segment
-		(start 143.8 99.2)
-		(end 142.75 100.25)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "d1b609a2-671d-4a16-9376-3645b8f2da95")
+		(uuid "9dafec25-8a45-4372-ad40-7fb1d22b67b0")
 	)
 	(segment
 		(start 153.7 99.145796)
@@ -27341,6 +27449,14 @@
 		(layer "F.Cu")
 		(net 67)
 		(uuid "dd93bf66-d435-4cae-9b3e-6a78532cd952")
+	)
+	(segment
+		(start 142.75 100.25)
+		(end 142.75 101.75)
+		(width 0.1)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "dfcfbd4e-005d-40fb-830b-7809ab4d3430")
 	)
 	(via
 		(at 153.327102 98.772898)
@@ -27367,20 +27483,12 @@
 		(uuid "0460e52e-0b07-4da3-b4e6-9957423d38e2")
 	)
 	(segment
-		(start 150.422898 98.772898)
-		(end 149.785 98.135)
+		(start 153.327102 98.772898)
+		(end 150.207898 98.772898)
 		(width 0.1)
 		(layer "B.Cu")
 		(net 67)
-		(uuid "8b44c058-eb45-48c0-a144-d0e717760b44")
-	)
-	(segment
-		(start 149.785 98.135)
-		(end 147.7 98.135)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 67)
-		(uuid "970646ba-cee8-4c0d-b76a-796cf27b2872")
+		(uuid "677974fa-4451-4dfd-a24f-e30904a25f1b")
 	)
 	(segment
 		(start 147.7 98.135)
@@ -27391,12 +27499,20 @@
 		(uuid "af00eeda-c40f-477a-baed-03c69326e7c2")
 	)
 	(segment
-		(start 153.327102 98.772898)
-		(end 150.422898 98.772898)
+		(start 150.207898 98.772898)
+		(end 149.57 98.135)
 		(width 0.1)
 		(layer "B.Cu")
 		(net 67)
-		(uuid "c628dceb-1ab4-4a81-9ad3-157491d46809")
+		(uuid "be35b0c3-7388-47f5-a045-7d5945ee2d71")
+	)
+	(segment
+		(start 149.57 98.135)
+		(end 147.7 98.135)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 67)
+		(uuid "ddda83e4-ec29-4dff-99af-dce45b1fc0d2")
 	)
 	(segment
 		(start 140.75 101.15)
@@ -35452,66 +35568,78 @@
 				(xy 152.663072 98.1195) (xy 152.66307 98.1195) (xy 152.591733 98.138615) (xy 152.591731 98.138616)
 				(xy 152.527772 98.175541) (xy 152.527766 98.175546) (xy 152.475546 98.227766) (xy 152.475541 98.227772)
 				(xy 152.438616 98.291731) (xy 152.438615 98.291733) (xy 152.4195 98.36307) (xy 137.7255 98.36307)
-				(xy 137.7255 97.46307) (xy 142.0195 97.46307) (xy 142.0195 97.536929) (xy 142.02896 97.572233) (xy 142.038616 97.608269)
-				(xy 142.047963 97.624458) (xy 142.075541 97.672227) (xy 142.075543 97.672229) (xy 142.075544 97.672231)
-				(xy 142.127769 97.724456) (xy 142.191731 97.761384) (xy 142.227401 97.770942) (xy 142.26307 97.7805)
-				(xy 142.263072 97.7805) (xy 142.33693 97.7805) (xy 142.365464 97.772853) (xy 142.408269 97.761384)
-				(xy 142.472231 97.724456) (xy 142.524456 97.672231) (xy 142.561384 97.608269) (xy 142.5805 97.536928)
-				(xy 142.5805 97.463072) (xy 142.5805 97.46307) (xy 147.4195 97.46307) (xy 147.4195 97.536929) (xy 147.42896 97.572233)
-				(xy 147.438616 97.608269) (xy 147.447963 97.624458) (xy 147.475541 97.672227) (xy 147.475543 97.672229)
-				(xy 147.475544 97.672231) (xy 147.527769 97.724456) (xy 147.591731 97.761384) (xy 147.627401 97.770942)
-				(xy 147.66307 97.7805) (xy 147.663072 97.7805) (xy 147.73693 97.7805) (xy 147.765464 97.772853)
-				(xy 147.808269 97.761384) (xy 147.872231 97.724456) (xy 147.924456 97.672231) (xy 147.961384 97.608269)
-				(xy 147.9805 97.536928) (xy 147.9805 97.463072) (xy 147.9805 97.46307) (xy 147.970942 97.427401)
-				(xy 147.961384 97.391731) (xy 147.944837 97.36307) (xy 157.3195 97.36307) (xy 157.3195 97.363072)
-				(xy 157.3195 97.436928) (xy 157.338616 97.508269) (xy 157.355162 97.536928) (xy 157.375541 97.572227)
-				(xy 157.375543 97.572229) (xy 157.375544 97.572231) (xy 157.427769 97.624456) (xy 157.491731 97.661384)
-				(xy 157.527401 97.670942) (xy 157.56307 97.6805) (xy 157.563072 97.6805) (xy 157.63693 97.6805)
-				(xy 157.667803 97.672227) (xy 157.708269 97.661384) (xy 157.772231 97.624456) (xy 157.824456 97.572231)
-				(xy 157.861384 97.508269) (xy 157.8805 97.436928) (xy 157.8805 97.363072) (xy 157.8805 97.36307)
-				(xy 157.870942 97.327401) (xy 157.861384 97.291731) (xy 157.824456 97.227769) (xy 157.772231 97.175544)
-				(xy 157.772229 97.175543) (xy 157.772227 97.175541) (xy 157.73739 97.155428) (xy 157.708269 97.138616)
-				(xy 157.708266 97.138615) (xy 157.63693 97.1195) (xy 157.636928 97.1195) (xy 157.563072 97.1195)
-				(xy 157.56307 97.1195) (xy 157.491733 97.138615) (xy 157.491731 97.138616) (xy 157.427772 97.175541)
-				(xy 157.427766 97.175546) (xy 157.375546 97.227766) (xy 157.375541 97.227772) (xy 157.338616 97.291731)
-				(xy 157.338615 97.291733) (xy 157.3195 97.36307) (xy 147.944837 97.36307) (xy 147.924456 97.327769)
-				(xy 147.872231 97.275544) (xy 147.872229 97.275543) (xy 147.872227 97.275541) (xy 147.83739 97.255428)
-				(xy 147.808269 97.238616) (xy 147.808266 97.238615) (xy 147.73693 97.2195) (xy 147.736928 97.2195)
-				(xy 147.663072 97.2195) (xy 147.66307 97.2195) (xy 147.591733 97.238615) (xy 147.591731 97.238616)
-				(xy 147.527772 97.275541) (xy 147.527766 97.275546) (xy 147.475546 97.327766) (xy 147.475541 97.327772)
-				(xy 147.438616 97.391731) (xy 147.438615 97.391733) (xy 147.4195 97.46307) (xy 142.5805 97.46307)
-				(xy 142.570942 97.427401) (xy 142.561384 97.391731) (xy 142.524456 97.327769) (xy 142.472231 97.275544)
-				(xy 142.472229 97.275543) (xy 142.472227 97.275541) (xy 142.43739 97.255428) (xy 142.408269 97.238616)
-				(xy 142.408266 97.238615) (xy 142.33693 97.2195) (xy 142.336928 97.2195) (xy 142.263072 97.2195)
-				(xy 142.26307 97.2195) (xy 142.191733 97.238615) (xy 142.191731 97.238616) (xy 142.127772 97.275541)
-				(xy 142.127766 97.275546) (xy 142.075546 97.327766) (xy 142.075541 97.327772) (xy 142.038616 97.391731)
-				(xy 142.038615 97.391733) (xy 142.0195 97.46307) (xy 137.7255 97.46307) (xy 137.7255 95.856486)
-				(xy 139.6695 95.856486) (xy 139.6695 95.943513) (xy 139.692022 96.027566) (xy 139.692023 96.02757)
-				(xy 139.735529 96.102925) (xy 139.735532 96.102929) (xy 139.735534 96.102932) (xy 139.797068 96.164466)
-				(xy 139.797071 96.164467) (xy 139.797074 96.16447) (xy 139.872429 96.207976) (xy 139.872431 96.207976)
-				(xy 139.872432 96.207977) (xy 139.893446 96.213607) (xy 139.956486 96.2305) (xy 139.956489 96.2305)
-				(xy 140.043513 96.2305) (xy 140.085539 96.219238) (xy 140.127568 96.207977) (xy 140.202932 96.164466)
-				(xy 140.204328 96.16307) (xy 147.8695 96.16307) (xy 147.8695 96.163072) (xy 147.8695 96.236928)
-				(xy 147.888616 96.308269) (xy 147.892519 96.315029) (xy 147.925541 96.372227) (xy 147.925543 96.372229)
-				(xy 147.925544 96.372231) (xy 147.977769 96.424456) (xy 148.041731 96.461384) (xy 148.077401 96.470942)
-				(xy 148.11307 96.4805) (xy 148.113072 96.4805) (xy 148.18693 96.4805) (xy 148.215464 96.472853)
-				(xy 148.258269 96.461384) (xy 148.322231 96.424456) (xy 148.374456 96.372231) (xy 148.411384 96.308269)
-				(xy 148.4305 96.236928) (xy 148.4305 96.163072) (xy 148.4305 96.16307) (xy 148.415815 96.108268)
-				(xy 148.411384 96.091731) (xy 148.382261 96.041289) (xy 148.374458 96.027772) (xy 148.374453 96.027766)
-				(xy 148.322233 95.975546) (xy 148.322227 95.975541) (xy 148.300626 95.96307) (xy 148.7195 95.96307)
-				(xy 148.7195 96.036929) (xy 148.734185 96.091733) (xy 148.738616 96.108269) (xy 148.748398 96.125212)
-				(xy 148.775541 96.172227) (xy 148.775543 96.172229) (xy 148.775544 96.172231) (xy 148.827769 96.224456)
-				(xy 148.891731 96.261384) (xy 148.927401 96.270942) (xy 148.96307 96.2805) (xy 148.963072 96.2805)
-				(xy 149.03693 96.2805) (xy 149.065464 96.272853) (xy 149.108269 96.261384) (xy 149.172231 96.224456)
-				(xy 149.224456 96.172231) (xy 149.261384 96.108269) (xy 149.2805 96.036928) (xy 149.2805 95.963072)
-				(xy 149.2805 95.96307) (xy 149.269557 95.922233) (xy 149.261384 95.891731) (xy 149.224456 95.827769)
-				(xy 149.172231 95.775544) (xy 149.172229 95.775543) (xy 149.172227 95.775541) (xy 149.13739 95.755428)
-				(xy 149.108269 95.738616) (xy 149.108266 95.738615) (xy 149.03693 95.7195) (xy 149.036928 95.7195)
-				(xy 148.963072 95.7195) (xy 148.96307 95.7195) (xy 148.891733 95.738615) (xy 148.891731 95.738616)
-				(xy 148.827772 95.775541) (xy 148.827766 95.775546) (xy 148.775546 95.827766) (xy 148.775541 95.827772)
-				(xy 148.738616 95.891731) (xy 148.738615 95.891733) (xy 148.7195 95.96307) (xy 148.300626 95.96307)
-				(xy 148.277786 95.949884) (xy 148.258269 95.938616) (xy 148.258266 95.938615) (xy 148.18693 95.9195)
-				(xy 148.186928 95.9195) (xy 148.113072 95.9195) (xy 148.11307 95.9195) (xy 148.041733 95.938615)
+				(xy 137.7255 97.46307) (xy 142.0195 97.46307) (xy 142.0195 97.536929) (xy 142.038615 97.608266)
+				(xy 142.038616 97.608269) (xy 142.047963 97.624458) (xy 142.075541 97.672227) (xy 142.075543 97.672229)
+				(xy 142.075544 97.672231) (xy 142.127769 97.724456) (xy 142.191731 97.761384) (xy 142.227401 97.770942)
+				(xy 142.26307 97.7805) (xy 142.263072 97.7805) (xy 142.33693 97.7805) (xy 142.365464 97.772853)
+				(xy 142.408269 97.761384) (xy 142.472231 97.724456) (xy 142.524456 97.672231) (xy 142.561384 97.608269)
+				(xy 142.5805 97.536928) (xy 142.5805 97.463072) (xy 142.5805 97.46307) (xy 147.4195 97.46307) (xy 147.4195 97.536929)
+				(xy 147.438615 97.608266) (xy 147.438616 97.608269) (xy 147.447963 97.624458) (xy 147.475541 97.672227)
+				(xy 147.475543 97.672229) (xy 147.475544 97.672231) (xy 147.527769 97.724456) (xy 147.591731 97.761384)
+				(xy 147.627401 97.770942) (xy 147.66307 97.7805) (xy 147.663072 97.7805) (xy 147.73693 97.7805)
+				(xy 147.765464 97.772853) (xy 147.808269 97.761384) (xy 147.872231 97.724456) (xy 147.924456 97.672231)
+				(xy 147.961384 97.608269) (xy 147.9805 97.536928) (xy 147.9805 97.49907) (xy 149.9605 97.49907)
+				(xy 149.9605 97.572929) (xy 149.979615 97.644266) (xy 149.979616 97.644269) (xy 149.989497 97.661383)
+				(xy 150.016541 97.708227) (xy 150.016543 97.708229) (xy 150.016544 97.708231) (xy 150.068769 97.760456)
+				(xy 150.06877 97.760457) (xy 150.068772 97.760458) (xy 150.070376 97.761384) (xy 150.132731 97.797384)
+				(xy 150.168401 97.806942) (xy 150.20407 97.8165) (xy 150.204072 97.8165) (xy 150.27793 97.8165)
+				(xy 150.306464 97.808853) (xy 150.349269 97.797384) (xy 150.413231 97.760456) (xy 150.465456 97.708231)
+				(xy 150.502384 97.644269) (xy 150.5215 97.572928) (xy 150.5215 97.499072) (xy 150.5215 97.49907)
+				(xy 150.511853 97.46307) (xy 150.502384 97.427731) (xy 150.465456 97.363769) (xy 150.464757 97.36307)
+				(xy 157.3195 97.36307) (xy 157.3195 97.436929) (xy 157.338615 97.508266) (xy 157.338616 97.508269)
+				(xy 157.355162 97.536928) (xy 157.375541 97.572227) (xy 157.375543 97.572229) (xy 157.375544 97.572231)
+				(xy 157.427769 97.624456) (xy 157.491731 97.661384) (xy 157.527401 97.670942) (xy 157.56307 97.6805)
+				(xy 157.563072 97.6805) (xy 157.63693 97.6805) (xy 157.667803 97.672227) (xy 157.708269 97.661384)
+				(xy 157.772231 97.624456) (xy 157.824456 97.572231) (xy 157.861384 97.508269) (xy 157.8805 97.436928)
+				(xy 157.8805 97.363072) (xy 157.8805 97.36307) (xy 157.866692 97.311541) (xy 157.861384 97.291731)
+				(xy 157.824456 97.227769) (xy 157.772231 97.175544) (xy 157.772229 97.175543) (xy 157.772227 97.175541)
+				(xy 157.73739 97.155428) (xy 157.708269 97.138616) (xy 157.708266 97.138615) (xy 157.63693 97.1195)
+				(xy 157.636928 97.1195) (xy 157.563072 97.1195) (xy 157.56307 97.1195) (xy 157.491733 97.138615)
+				(xy 157.491731 97.138616) (xy 157.427772 97.175541) (xy 157.427766 97.175546) (xy 157.375546 97.227766)
+				(xy 157.375541 97.227772) (xy 157.338616 97.291731) (xy 157.338615 97.291733) (xy 157.3195 97.36307)
+				(xy 150.464757 97.36307) (xy 150.413231 97.311544) (xy 150.413229 97.311543) (xy 150.413227 97.311541)
+				(xy 150.37839 97.291428) (xy 150.349269 97.274616) (xy 150.349266 97.274615) (xy 150.27793 97.2555)
+				(xy 150.277928 97.2555) (xy 150.204072 97.2555) (xy 150.20407 97.2555) (xy 150.132733 97.274615)
+				(xy 150.132731 97.274616) (xy 150.068772 97.311541) (xy 150.068766 97.311546) (xy 150.016546 97.363766)
+				(xy 150.016541 97.363772) (xy 149.979616 97.427731) (xy 149.979615 97.427733) (xy 149.9605 97.49907)
+				(xy 147.9805 97.49907) (xy 147.9805 97.463072) (xy 147.9805 97.46307) (xy 147.970942 97.427401)
+				(xy 147.961384 97.391731) (xy 147.924456 97.327769) (xy 147.872231 97.275544) (xy 147.872229 97.275543)
+				(xy 147.872227 97.275541) (xy 147.83739 97.255428) (xy 147.808269 97.238616) (xy 147.808266 97.238615)
+				(xy 147.73693 97.2195) (xy 147.736928 97.2195) (xy 147.663072 97.2195) (xy 147.66307 97.2195) (xy 147.591733 97.238615)
+				(xy 147.591731 97.238616) (xy 147.527772 97.275541) (xy 147.527766 97.275546) (xy 147.475546 97.327766)
+				(xy 147.475541 97.327772) (xy 147.438616 97.391731) (xy 147.438615 97.391733) (xy 147.4195 97.46307)
+				(xy 142.5805 97.46307) (xy 142.570942 97.427401) (xy 142.561384 97.391731) (xy 142.524456 97.327769)
+				(xy 142.472231 97.275544) (xy 142.472229 97.275543) (xy 142.472227 97.275541) (xy 142.43739 97.255428)
+				(xy 142.408269 97.238616) (xy 142.408266 97.238615) (xy 142.33693 97.2195) (xy 142.336928 97.2195)
+				(xy 142.263072 97.2195) (xy 142.26307 97.2195) (xy 142.191733 97.238615) (xy 142.191731 97.238616)
+				(xy 142.127772 97.275541) (xy 142.127766 97.275546) (xy 142.075546 97.327766) (xy 142.075541 97.327772)
+				(xy 142.038616 97.391731) (xy 142.038615 97.391733) (xy 142.0195 97.46307) (xy 137.7255 97.46307)
+				(xy 137.7255 95.856486) (xy 139.6695 95.856486) (xy 139.6695 95.943513) (xy 139.692022 96.027566)
+				(xy 139.692023 96.02757) (xy 139.735529 96.102925) (xy 139.735532 96.102929) (xy 139.735534 96.102932)
+				(xy 139.797068 96.164466) (xy 139.797071 96.164467) (xy 139.797074 96.16447) (xy 139.872429 96.207976)
+				(xy 139.872431 96.207976) (xy 139.872432 96.207977) (xy 139.893446 96.213607) (xy 139.956486 96.2305)
+				(xy 139.956489 96.2305) (xy 140.043513 96.2305) (xy 140.085539 96.219238) (xy 140.127568 96.207977)
+				(xy 140.202932 96.164466) (xy 140.204328 96.16307) (xy 147.8695 96.16307) (xy 147.8695 96.163072)
+				(xy 147.8695 96.236928) (xy 147.888616 96.308269) (xy 147.892519 96.315029) (xy 147.925541 96.372227)
+				(xy 147.925543 96.372229) (xy 147.925544 96.372231) (xy 147.977769 96.424456) (xy 148.041731 96.461384)
+				(xy 148.077401 96.470942) (xy 148.11307 96.4805) (xy 148.113072 96.4805) (xy 148.18693 96.4805)
+				(xy 148.215464 96.472853) (xy 148.258269 96.461384) (xy 148.322231 96.424456) (xy 148.374456 96.372231)
+				(xy 148.411384 96.308269) (xy 148.4305 96.236928) (xy 148.4305 96.163072) (xy 148.4305 96.16307)
+				(xy 148.415815 96.108268) (xy 148.411384 96.091731) (xy 148.382261 96.041289) (xy 148.374458 96.027772)
+				(xy 148.374453 96.027766) (xy 148.322233 95.975546) (xy 148.322227 95.975541) (xy 148.300626 95.96307)
+				(xy 148.7195 95.96307) (xy 148.7195 96.036929) (xy 148.734185 96.091733) (xy 148.738616 96.108269)
+				(xy 148.748398 96.125212) (xy 148.775541 96.172227) (xy 148.775543 96.172229) (xy 148.775544 96.172231)
+				(xy 148.827769 96.224456) (xy 148.891731 96.261384) (xy 148.927401 96.270942) (xy 148.96307 96.2805)
+				(xy 148.963072 96.2805) (xy 149.03693 96.2805) (xy 149.065464 96.272853) (xy 149.108269 96.261384)
+				(xy 149.172231 96.224456) (xy 149.224456 96.172231) (xy 149.261384 96.108269) (xy 149.2805 96.036928)
+				(xy 149.2805 95.963072) (xy 149.2805 95.96307) (xy 149.269557 95.922233) (xy 149.261384 95.891731)
+				(xy 149.224456 95.827769) (xy 149.172231 95.775544) (xy 149.172229 95.775543) (xy 149.172227 95.775541)
+				(xy 149.13739 95.755428) (xy 149.108269 95.738616) (xy 149.108266 95.738615) (xy 149.03693 95.7195)
+				(xy 149.036928 95.7195) (xy 148.963072 95.7195) (xy 148.96307 95.7195) (xy 148.891733 95.738615)
+				(xy 148.891731 95.738616) (xy 148.827772 95.775541) (xy 148.827766 95.775546) (xy 148.775546 95.827766)
+				(xy 148.775541 95.827772) (xy 148.738616 95.891731) (xy 148.738615 95.891733) (xy 148.7195 95.96307)
+				(xy 148.300626 95.96307) (xy 148.277786 95.949884) (xy 148.258269 95.938616) (xy 148.258266 95.938615)
+				(xy 148.18693 95.9195) (xy 148.186928 95.9195) (xy 148.113072 95.9195) (xy 148.11307 95.9195) (xy 148.041733 95.938615)
 				(xy 148.041731 95.938616) (xy 147.977772 95.975541) (xy 147.977766 95.975546) (xy 147.925546 96.027766)
 				(xy 147.925541 96.027772) (xy 147.888616 96.091731) (xy 147.888615 96.091733) (xy 147.8695 96.16307)
 				(xy 140.204328 96.16307) (xy 140.264466 96.102932) (xy 140.273657 96.087011) (xy 140.307976 96.02757)

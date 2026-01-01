@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "88351f91-e256-45f9-a10d-ad75dd8a2d46")
 	(paper "User" 477.19 317.906)
+	(title_block
+		(title "CycloMod FPGA/MCU Module")
+		(date "2026-01-01")
+		(rev "0.2")
+		(company "Steiert Solutions")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -2965,7 +2971,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FRAME"
+			(property "Reference" "FRAME1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2974,7 +2980,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "FRAME-LEDGER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3002,6 +3008,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3324,26 +3348,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Released under the Creative Commons"
-					(at 2.54 31.75 0)
-					(effects
-						(font
-							(size 1.9304 1.6408)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Attribution Share-Alike 4.0 License"
-					(at 2.54 27.94 0)
-					(effects
-						(font
-							(size 1.9304 1.6408)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "https://creativecommons.org/licenses/by-sa/4.0/"
-					(at 2.54 24.13 0)
+					(at 2.794 27.94 0)
 					(effects
 						(font
 							(size 1.9304 1.6408)
@@ -3356,24 +3362,6 @@
 					(effects
 						(font
 							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${PROJECTNAME}"
-					(at 15.494 17.78 0)
-					(effects
-						(font
-							(size 2.7432 2.7432)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${DESIGNER}"
-					(at 23.114 11.176 0)
-					(effects
-						(font
-							(size 2.7432 2.7432)
 						)
 						(justify left bottom)
 					)
@@ -3405,7 +3393,54 @@
 						(justify left bottom)
 					)
 				)
-				(text "${REV}"
+			)
+			(symbol "FRAME-LEDGER_2_1"
+				(text "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+					(at 2.54 31.75 0)
+					(effects
+						(font
+							(size 1.9304 1.6408)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Derived from MicroMod RP2040 Processor Module by N. Seidle, SparkFun"
+					(at 2.794 24.13 0)
+					(effects
+						(font
+							(size 1.9304 1.6408)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${TITLE}"
+					(at 15.494 17.78 0)
+					(effects
+						(font
+							(size 2.7432 2.7432)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Greg Steiert"
+					(at 23.114 11.176 0)
+					(effects
+						(font
+							(size 2.7432 2.7432)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${COMPANY}"
+					(at 23.114 6.35 0)
+					(effects
+						(font
+							(size 2.7432 2.7432)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${REVISION}"
 					(at 88.9 6.604 0)
 					(effects
 						(font
@@ -42191,126 +42226,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MicroMod-RP2040-ProcessorBoard-eagle-import:SPECIAL_INSTRUCTIONS-ORDERING"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LOGO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MicroMod-RP2040-ProcessorBoard:ORDERING_INSTRUCTIONS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SPECIAL_INSTRUCTIONS-ORDERING_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 22.86 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 2.54) (xy 22.86 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Special Instructions"
-					(at 1.27 0.6985 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(thickness 0.254)
-							(bold yes)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "custom:10CL010YM164"
 			(pin_names
 				(offset 1.016)
@@ -48256,17 +48171,6 @@
 		)
 		(uuid d99901c5-b7e7-4148-bce3-b4e96664d6c6)
 	)
-	(text "Differential Impedance: 100Ω"
-		(exclude_from_sim no)
-		(at 383.54 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "03232d03-3d16-4877-8380-7ee96e48b141")
-	)
 	(text "MicroMod Connector"
 		(exclude_from_sim no)
 		(at 79.375 174.879 0)
@@ -48276,50 +48180,6 @@
 			)
 		)
 		(uuid "03337c86-9f1e-42f1-87ae-1c9bcb644363")
-	)
-	(text "Er: 4.6 (JLC7628)"
-		(exclude_from_sim no)
-		(at 383.54 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "04d5cfdd-59ed-481b-8742-f923a892831f")
-	)
-	(text "N. Seidle"
-		(exclude_from_sim no)
-		(at 366.522 286.004 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "13ff94f7-3b44-4301-b85f-3931e4302f0f")
-	)
-	(text "Board thickness: 0.8mm"
-		(exclude_from_sim no)
-		(at 383.54 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "341f2ce7-3965-4f47-bad3-912ec0899d91")
-	)
-	(text "Trace Thickness (1oz): 1.4mil/0.035mm"
-		(exclude_from_sim no)
-		(at 383.54 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fdb3086-c81c-4ad0-8848-34bf3af8c289")
 	)
 	(text "MSEL:\n000 Standard Passive Serial (Default)\n010 Standard 3.3V Active Serial\nRP2350 is connected to JTAG\nLeave in passive serial to prevent FPGA from \ndriving SPI signals when configuration is reset "
 		(exclude_from_sim no)
@@ -48331,17 +48191,6 @@
 			(justify left)
 		)
 		(uuid "5a0a633f-41cb-4e93-952e-d2e6f181b614")
-	)
-	(text "https://cart.jlcpcb.com/impedanceCalculation"
-		(exclude_from_sim no)
-		(at 383.54 196.85 0)
-		(effects
-			(font
-				(size 0.762 0.6477)
-			)
-			(justify left bottom)
-		)
-		(uuid "6613ff38-109f-4694-b158-4846e315a5d9")
 	)
 	(text "HSTX"
 		(exclude_from_sim no)
@@ -48375,17 +48224,6 @@
 			(justify right bottom)
 		)
 		(uuid "8bf5ef92-d739-4c60-9673-e95623c0a19e")
-	)
-	(text "Required Trace Width: 5mil"
-		(exclude_from_sim no)
-		(at 383.54 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "943a090c-592d-473f-bbad-dba2595415e6")
 	)
 	(text "QMI CS1n"
 		(exclude_from_sim no)
@@ -48431,39 +48269,6 @@
 		)
 		(uuid "dd055407-3726-48e6-88ba-1ab16938d5b5")
 	)
-	(text "Dielectric thickness (layer 1 to 2): 3.93mil/0.1mm"
-		(exclude_from_sim no)
-		(at 383.54 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "df9c0ee4-027e-4ef3-a610-c0cb93dc381c")
-	)
-	(text "Single Ended Impedance: 50Ω"
-		(exclude_from_sim no)
-		(at 383.54 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "e18dd78d-f8c6-4682-8e99-f0ea4b8662dd")
-	)
-	(text "v1.7"
-		(exclude_from_sim no)
-		(at 439.42 289.56 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed7e8d03-9739-41d8-b73e-1479a218069c")
-	)
 	(text "12MHz Crystal"
 		(exclude_from_sim no)
 		(at 31.75 92.71 0)
@@ -48474,30 +48279,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6e3d2c3-5ee1-47c5-b483-88b343ba1b60")
-	)
-	(text "Required Trace Separation: 4mil"
-		(exclude_from_sim no)
-		(at 383.54 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "f74ddb10-a840-4e1d-8b36-62e560842f8d")
-	)
-	(text "Differential Microstrip Calculation:"
-		(exclude_from_sim no)
-		(at 383.54 173.99 0)
-		(effects
-			(font
-				(size 1.524 1.2954)
-				(thickness 0.2591)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "febf0e36-0f01-4347-a539-c0df4963bcf0")
 	)
 	(junction
 		(at 279.4 279.4)
@@ -49286,16 +49067,6 @@
 			(type default)
 		)
 		(uuid "07b55c7c-beeb-4c5b-acd9-c6a042b34f1a")
-	)
-	(wire
-		(pts
-			(xy 69.85 85.09) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f3354d-0269-4a42-a3d2-722f685f4c5d")
 	)
 	(wire
 		(pts
@@ -50186,6 +49957,16 @@
 			(type default)
 		)
 		(uuid "3bd8381b-f2f9-4308-8b43-b9da897f44b5")
+	)
+	(wire
+		(pts
+			(xy 64.77 85.09) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9436f8-4967-4484-a83e-adcd20e915da")
 	)
 	(wire
 		(pts
@@ -52646,6 +52427,16 @@
 			(type default)
 		)
 		(uuid "d6de41e9-ccd1-42bd-ba2d-3d909d5e3fcb")
+	)
+	(wire
+		(pts
+			(xy 50.8 85.09) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d756b970-2cd5-44cb-bcda-32742ea8f582")
 	)
 	(wire
 		(pts
@@ -56529,7 +56320,7 @@
 	)
 	(symbol
 		(lib_id "MicroMod-RP2040-ProcessorBoard-eagle-import:FRAME-LEDGER")
-		(at 347.98 297.18 0)
+		(at 370.84 313.69 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -56537,7 +56328,7 @@
 		(dnp no)
 		(uuid "35ceb704-1c90-44d5-95b8-9b5a71a9d1ff")
 		(property "Reference" "FRAME1"
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56546,7 +56337,7 @@
 			)
 		)
 		(property "Value" "FRAME-LEDGER"
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56555,7 +56346,7 @@
 			)
 		)
 		(property "Footprint" "MicroMod-RP2040-ProcessorBoard:CREATIVE_COMMONS"
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56564,7 +56355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56573,7 +56364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56582,7 +56373,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56591,7 +56382,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 347.98 297.18 0)
+			(at 370.84 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56626,7 +56417,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 276.86 129.54 0)
 			(effects
 				(font
@@ -58894,7 +58685,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 278.13 179.705 0)
 			(effects
 				(font
@@ -60904,7 +60695,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC5504-2.5YMT"
+		(property "Value" "XC6223-2.5V"
 			(at 400.05 135.255 0)
 			(effects
 				(font
@@ -62262,7 +62053,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 277.495 78.74 0)
 			(effects
 				(font
@@ -64707,7 +64498,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 277.495 233.045 0)
 			(effects
 				(font
@@ -65972,87 +65763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MicroMod-RP2040-ProcessorBoard-eagle-import:SPECIAL_INSTRUCTIONS-ORDERING")
-		(at 426.72 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4dd8e1f-7a14-403b-8f23-2041f1bf24c6")
-		(property "Reference" "LOGO4"
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SPECIAL_INSTRUCTIONS-ORDERING"
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MicroMod-RP2040-ProcessorBoard:ORDERING_INSTRUCTIONS"
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 426.72 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MicroMod-RP2040-ProcessorBoard"
-				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
-					(reference "LOGO4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 40.64 140.97 0)
 		(unit 1)
@@ -66570,6 +66280,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be4d78d7-4593-4ca4-87e7-b11976e2c484")
+		(property "Reference" "#PWR048"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1a052b7-eb9c-4e3f-8bf1-888b77009f9c")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 52.07 63.5 0)
 		(unit 1)
@@ -66717,6 +66493,91 @@
 			(project "CycloMod"
 				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 60.96 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c12decdd-564c-44f1-a2e7-37138787f13e")
+		(property "Reference" "R15"
+			(at 60.96 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 60.96 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 61.214 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106225"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-0710KL "
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02d46828-785f-4462-8bc4-0eba30bdd433")
+		)
+		(pin "2"
+			(uuid "5f823eb4-e362-4c23-b0c8-95c56abd1a29")
+		)
+		(instances
+			(project "CycloMod"
+				(path "/88351f91-e256-45f9-a10d-ad75dd8a2d46"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -67372,7 +67233,7 @@
 				)
 			)
 		)
-		(property "Value" "10CL010YM164"
+		(property "Value" "10CL016YM164"
 			(at 278.13 20.32 0)
 			(effects
 				(font
@@ -68487,7 +68348,7 @@
 	)
 	(symbol
 		(lib_id "MicroMod-RP2040-ProcessorBoard-eagle-import:OSHW-LOGOMINI")
-		(at 363.22 251.46 0)
+		(at 384.81 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -68495,7 +68356,7 @@
 		(dnp no)
 		(uuid "d5787359-4a91-40a3-a252-53a89bbae8ef")
 		(property "Reference" "LOGO3"
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68504,7 +68365,7 @@
 			)
 		)
 		(property "Value" "OSHW-LOGOMINI"
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68513,7 +68374,7 @@
 			)
 		)
 		(property "Footprint" "MicroMod-RP2040-ProcessorBoard:OSHW-LOGO-MINI"
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68522,7 +68383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68531,7 +68392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68540,7 +68401,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68549,7 +68410,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 363.22 251.46 0)
+			(at 384.81 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69940,4 +69801,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "empty.kicad_wks")
+			(type worksheet)
+			(data |KLUv/SDv3QQAAkofHWBH3AYYG5WNp6X1Yo+Q9gBEABczNqYMmBEFHYI4Qw6pWPF5ft4u9cMnobwA
+				BcSWPuLKEuOVl7XuFsC0TtY6zIPOu1xiSA/okgcqzpNW2yjvgnkU6Hqwrw208QxB68N/SNd6lSIL
+				c9c6OWVd+CQYxzi3fU4L8E9pEJUEVsEKAGiJSsKwNY0ikxtojgccwM0Gi+r1d0tXJwY=|
+			)
+			(checksum "FCA276A4FBC96C6E5F0C267C65E801E1")
+		)
+	)
 )
