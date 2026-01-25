@@ -1,9 +1,11 @@
 # CycloMod
 Cyclone 10LP plus RP2350 in SparkFun MicroMod form-factor
 
-![CycloMod Block Diagram](CycloMod-BD.png)
+![CycloMod Board](img/cyclomod-close.jpg)
 
 CycloMod brings the flexibility of an FPGA to the SparkFun MicroMod ecosystem.  It combines the Raspberry Pi RP2350 with the Altera Cyclone 10LP, in a compact, adaptable module.
+
+![CycloMod Block Diagram](img/CycloMod-BD.png)
 
 The FPGA and MCU are designed to be used together.  Most of the MicroMod I/O are connected to the FPGA for highest flexibility, while some functions like USB, ADC and SWD take advantage of the dedicated peripherals in the RP2350.  A few signals, like reset and the primary I2C bus, are connected to both devices.
 
