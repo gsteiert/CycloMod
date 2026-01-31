@@ -1,9 +1,11 @@
 # CycloMod
 Cyclone 10LP plus RP2350 in SparkFun MicroMod form-factor
 
+Be sure to subscribe to the [Cyclomod Crowd Supply Campaign](https://www.crowdsupply.com/steiert-solutions/cyclomod) for updates on when and how to get CycloMod.
+
 ![CycloMod Board](img/cyclomod-close.jpg)
 
-CycloMod brings the flexibility of an FPGA to the SparkFun MicroMod ecosystem.  It combines the Raspberry Pi RP2350 with the Altera Cyclone 10LP, in a compact, adaptable module.
+CycloMod brings the flexibility of an FPGA to the SparkFun MicroMod ecosystem.  It combines the Raspberry Pi RP2350 with the Altera Cyclone 10LP, in a compact, adaptable module.  
 
 ![CycloMod Block Diagram](img/CycloMod-BD.png)
 
